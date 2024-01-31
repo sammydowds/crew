@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "syllabus"
+version = "0.1.0"
+description = "Write a syllabus for a certain duration and PDF, utilizing Crew AI"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+crewai = "^0.1.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
